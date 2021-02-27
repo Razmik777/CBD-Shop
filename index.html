@@ -1,88 +1,72 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Эскиз-макет</title>
-	<meta charset="utf-8">
+    <title>Эскиз-макет</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
-      <span>Logo</span>
-        <nav>
-    	  <ul>
-    		<li>
-    			<a href="#">Our blog</a>
-    		</li>
-    		<li>
-    			<a href="#">About Us</a>
-    		</li>
-    		<li>
-    			<a href="#">Contact Us</a>
-    		</li>
-    	 </ul>
+      <img src="images/logo.jpg" alt="logo" class="logo">
+      <!-- логотип-->
+        <nav class="navigation">
+          <ul class="nav-ul">
+            <li class="nav-li"><a href="#">Our blog</a></li>
+            <li class="nav-li"><a href="#">About Us</a></li>
+            <li class="nav-li"><a href="#">Contact Us</a></li>
+         </ul>
          </nav>
          <button type="button">&#128269;</button>
     </header>
-    <main>
-    	<section>
-    		<h1> Pure CDB<br>Pure Results</h1>
-    	   </section>
+       <main>
+        <section>
+            <h1> Pure CDB<br>Pure Results</h1>
+           </section>
             <section>
                 <h2>Our Products</h2>
-    		  <ul>
-    			<li>Oils & Tinctures</li>
-    			<li><img src="#" alt="Oils"></li>
-    			<li>Edibles & Drinks</li>
-    			<li><img src="#" alt="Edibles"></li>
-    			<li>Body & SkinCare</li>
-    			<li><img src="#" alt="Body"></li>
-            </ul>
+                <p>Oils & Tinctures</p>
+                <img src="images/oils.jpg" alt="Oils" height="200" width="200">
+                <p>Edibles & Drinks</p>
+                <img src="images/drink.png" alt="Edibles" height="200" width="200">
+                <p>Body & SkinCare</p>
+                <img src="images/cream.jpg" alt="Body" height="200" width="200"> 
            </section> 
-    	      <section>
-        	<h2>Featured Products</h2>
-        	   <ul>
-        	     <li><img src="#" alt="CDB Vegan">
-        	     CDB Vegan Gummies
-        	     $50</li>
-        	     <li><img src="#" alt="Mint Oil">
-        	     Mint CBD Oil 1000mg
-        	     $150</li>
-        	     <li><img src="#" alt="Topical CBD">
-        	     3.4oz Topical CBD Ointment
-        	     $100</li>
-        	      <li><img src="#" alt="CDB Capsules">
-        	     CDB Capsules
-        	     <s>$70</s> $60</li>
-        	 </ul>
+              <section>
+            <h2>Featured Products</h2>
+               <img src="#" alt="CDB Vegan">
+                 CDB Vegan Gummies
+                 $50
+                 <img src="#" alt="Mint Oil">
+                 Mint CBD Oil 1000mg
+                 $150
+                 <img src="#" alt="Topical CBD">
+                 3.4oz Topical CBD Ointment
+                 $100
+               <img src="#" alt="CDB Capsules">
+                 CDB Capsules
+                 <s>$70</s> $60
         </section>
         <section>
-        	<h2>Our Blog</h2>
-        	<ul>
-        		<li>
-        		   <article>
-        			<img src="#" alt="CBD bath Bombs">
-        			Jan 02,2020
-        			<h3>The Ultimate ExpArience With CBD Bath Bombs</h3>
-        			<a href="#">Read More</a>
-        		   </article>
-        		   </li>
-        		<li>
-        		   <article>
-        			<img src="#" alt="CBD lollipips">
-        			Jan 02,2020
-        			<h3>What are CBD lollipips?</h3>
-        			<a href="#">Read More</a>
-        		  </article>
-        		  </li>
-        		<li>
-        		   <article>
-        			<img src="#" alt="CBD Candy">
-        			Jan 02,2020
-        			<h3>CBD Candy: Why Are Those Edibles Becoming So Popular?</h3>
-        			<a href="#">Read More</a>
-        		</article>
-                </li>
-            </ul>
-        </section>
+            <h2>Our Blog</h2>
+            <article>
+                    <img src="#" alt="CBD bath Bombs">
+                    Jan 02,2020
+                    <h3>The Ultimate ExpArience With CBD Bath Bombs</h3>
+                    <a href="#">Read More</a>
+                   </article>
+             <article>
+                    <img src="#" alt="CBD lollipips">
+                    Jan 02,2020
+                    <h3>What are CBD lollipips?</h3>
+                    <a href="#">Read More</a>
+                  </article>
+             <article>
+                    <img src="#" alt="CBD Candy">
+                    Jan 02,2020
+                    <h3>CBD Candy: Why Are Those Edibles Becoming So Popular?</h3>
+                    <a href="#">Read More</a>
+                </article>      
+           </section>
         <section>
             <h3>#Instagramm feed</h3>
         </section>
@@ -92,38 +76,30 @@
         <form>
             <input name="name" maxlength="25" size="40" value="Enter your Email">
               &#9993;
-       </form>
+        </form>
      <hr>
+     <br>
+     <img class="one" src="images/logo.jpg" alt="logo" class="logo">
      <span>Menu</span>
           <ul>
-            <li>
-                <a href="#">Our Blog</a>
-               </li>
-            <li>
-                <a href="#"> About Us</a>
-               </li>
-             <li>
-                <a href="#"> Contact Us</a>
-             </li>
+            <li><a class="footer" href="#">Our Blog</a></li>
+            <li><a class="footer" href="#"> About Us</a></li>
+            <li><a class="footer" href="#"> Contact Us</a></li>
            </ul>
       <span>About Us</span>
-             <ul>
-            <li>
-                <a href="#">Our Blog</a>
-               </li>
-            <li>
-                <a href="#"> About Us</a>
-               </li>
-             <li>
-                <a href="#"> Contact Us</a>
-             </li>
-           </ul>
+        <ul>
+            <li><a class="footer" href="#">Our Blog</a></li>
+            <li><a class="footer" href="#"> About Us</a></li>
+            <li><a class="footer" href="#"> Contact Us</a></li>
+        </ul>
       <span>Contact US</span>
-              <ul>
+         <ul>
             <li>&#128222; +79854696655</li>
             <li>&#9993; support@ourpage.com</li>
             <li>&#8962; Address</li>
-           </ul>  
+        </ul>  
       </footer>
-   </body>
+
+</body>
 </html>
+
