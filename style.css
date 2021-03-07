@@ -9,17 +9,17 @@ h2{
 	text-align: center;
 }
 footer{
-	background-color:#FF7F50;
+	background-color:#fa897b;
 	padding: 30px;
 	color:white;
 	list-style-type: none;
 	text-decoration: none;
 }
-form {
+form{
 	text-align: center;
 	padding: 30px
  }
- a{
+a{
 	text-decoration: none;
 	color:black;
 }
@@ -36,9 +36,14 @@ span{
 li{
 	list-style-type: none;
 }
+input{
+	border-radius: 20px 0 0 20px;
+	padding: 10px;
+	margin-left: 10px;
+}
  .logo{
- 	width: 120px;
- 	height:120px;
+ 	width: 50px;
+ 	height:50px;
  	display: block;
  	margin: auto;
  	position:center;
@@ -63,8 +68,8 @@ li{
 	
 }
 .one{
-	width: 120px;
- 	height:120px;
+	width: 50px;
+ 	height:50px;
  	display: block;
  	margin:left;
  	mix-blend-mode:multiply;	
