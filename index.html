@@ -3,6 +3,8 @@
 <head>
     <title>Эскиз-макет сайта</title>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -21,24 +23,18 @@
    </header>
        <main>
          <h1>Medical shop</h1>
-           Pure CBD 
-           Pure Results
-           <img src="images/banner/banner.jpg" alt="banner">
-             <div class="slider">
-                <button type="button" aria-label="previous slide">&#8592;</button>
-                <button type="button" aria-label="next slide">&#8594;</button>
-             </div>
+           <pre class="text">Pure CBD<br>Pure Results </pre>    
           <section>
              <h2>Product List</h2>
-               <p>Oils & Tinctures</p>
+               <p class="product">Oils & Tinctures</p>
                  <ul>
                     <li><img src="images/category/tincture.png" alt="Oils"></li>
                  </ul>
-               <p>Edibles & Drinks</p>
+               <p class="product">Edibles & Drinks</p>
                  <ul>
                     <li><img src="images/category/berry.png" alt="Edibles"></li>
                  </ul>
-               <p>Body & SkinCare</p>
+               <p class="product">Body & SkinCare</p>
                   <ul>
                     <li><img src="images/category/cream.png" alt="Body"></li>
                   </ul>
@@ -46,11 +42,11 @@
            <section>
               <h2>Featured Products</h2>
                  <ul>
-                   <li><img src="images/feautured/gummies.png" alt="CDB Vegan"><span>CDB Vegan Gummies</span>$50</li>
-                   <li><img src="images/feautured/oil.png" alt="Mint Oil"><span>Mint CBD Oil 1000mg</span>$150</li>
-                   <li><img src="images/feautured/topical.png" alt="Topical CBD"><span>3.4oz Topical CBD Ointment</span>$100</li>
-                   <li><img src="images/feautured/capsules.png" alt="CDB Capsules">
-                   <span>CDB Capsules</span><s>$70</s>$60</li>
+                   <li class="feautured"><img src="images/feautured/gummies.png" alt="CDB Vegan">CDB Vegan Gummies<span>$50</span></li>
+                   <li class="feautured"><img src="images/feautured/oil.png" alt="Mint Oil">Mint CBD Oil 1000mg<span>$150</span></li>
+                   <li class="feautured"><img src="images/feautured/topical.png" alt="Topical CBD">3.4oz Topical CBD Ointment<span>$100</span></li>
+                   <li class="feautured"><img src="images/feautured/capsules.png" alt="CDB Capsules">
+                   CDB Capsules<span><s>$70</s> $60</span></li>
                 </ul>
         </section>
         <section>
@@ -58,21 +54,21 @@
                  <ul>
                     <li><img src="images/blog/Rectangle51.jpg" alt="CBD bath Bombs"></li>
                     <li>Jan 02,2020</li>
-                    <li>The Ultimate ExpArience With CBD Bath Bombs</li>
+                    <li class="blog">The Ultimate ExpArience With CBD Bath Bombs</li>
                     <li><a href="#">Read More</a></li>
                     <li><img src="images/blog/Rectangle5.jpg" alt="CBD lollipips"></li>
                     <li>Jan 02,2020</li>
-                    <li>What are CBD lollipips?</li>
+                    <li class="blog">What are CBD lollipips?</li>
                     <li><a href="#">Read More</a></li>
                     <li><img src="images/blog/garten.jpg" alt="CBD Candy"></li>
                     <li>Jan 02,2020</li>
-                    <li>CBD Candy: Why Are Those Edibles Becoming So Popular?</li>
+                    <li class="blog">CBD Candy: Why Are Those Edibles Becoming So Popular?</li>
                     <li><a href="#">Read More</a></li> 
                   </ul>   
          </section>
          <section>
            	 <h2>Our Instagramm</h2>
-               <a href="#">Instagramm feet</a>
+               <a href="http://instagram.com" class="insta">#INSTAGRAMM FEED</a>
                  <ul>
                     <li><img src="images/insta/cbeo.jpg" alt="photo1"></li>
                     <li><img src="images/insta/unsplash.jpg" alt="photo2"></li>
