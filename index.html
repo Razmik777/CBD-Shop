@@ -9,35 +9,39 @@
 </head>
 <body>
     <header>
-    	   <img src="images/icons/logo-up.svg" alt="logo" class="logo">
-             <nav class="menu">
-               <ul class="nav-ul">
+    	<img src="images/icons/logo-up.svg" alt="logo" class="logo">
+          <nav class="menu">
+             <div>
+               <ul class="navigation1">
                  <li class="nav-li"><a class="nav" href="#">Our blog</a></li>
                  <li class="nav-li"><a class="nav" href="#">About Us</a></li>
                  <li class="nav-li"><a class="nav" href="#">Contact Us</a></li>
                </ul>
-            </nav>
-          <button type="button"><img src="images/icons/VectorSmart-Object.svg" alt="поиск" width="20" height="20"></button>
-          <a href="#"><img src="images/icons/shop.svg" alt="shop" width="20" height="20"></a>
-          <a href="#"><img src="images/icons/log-in.svg" alt="profile" width="35" height="20"></a>
+            </div>
+           </nav>
+             <div class="btn">
+                <button type="button" class="btn"><img src="images/icons/VectorSmart-Object.svg" alt="поиск" width="20" height="20"></button>
+                <a href="#" class="btn"><img src="images/icons/shop.svg" alt="shop" width="20" height="20"></a>
+                <a href="#" class="btn"><img src="images/icons/log-in.svg" alt="profile" width="35" height="20"></a>
+             </div>
    </header>
        <main>
          <h1>Medical shop</h1>
-           <pre class="text">Pure CBD<br>Pure Results </pre>    
-          <section>
+           <pre class="text">Pure CBD<br>Pure Results</pre>    
+           <section>
              <h2>Product List</h2>
-               <p class="product">Oils & Tinctures</p>
-                 <ul>
-                    <li><img src="images/category/tincture.png" alt="Oils"></li>
-                 </ul>
-               <p class="product">Edibles & Drinks</p>
-                 <ul>
-                    <li><img src="images/category/berry.png" alt="Edibles"></li>
-                 </ul>
-               <p class="product">Body & SkinCare</p>
-                  <ul>
-                    <li><img src="images/category/cream.png" alt="Body"></li>
-                  </ul>
+                <ul class="product">
+                <p>Oils & Tinctures</p>
+                    <li><img src="images/category/tincture.png" alt="Oils" class="category"></li>
+                </ul>
+                <p class="product">Edibles & Drinks</p>
+                <ul>
+                    <li><img src="images/category/berry.png" alt="Edibles" class="category"></li>
+                </ul>
+                <p class="product">Body & SkinCare</p>
+                <ul>
+                    <li><img src="images/category/cream.png" alt="Body" class="category"></li>
+                </ul>
            </section> 
            <section>
               <h2>Featured Products</h2>
@@ -46,11 +50,11 @@
                    <li class="feautured"><img src="images/feautured/oil.png" alt="Mint Oil">Mint CBD Oil 1000mg<span>$150</span></li>
                    <li class="feautured"><img src="images/feautured/topical.png" alt="Topical CBD">3.4oz Topical CBD Ointment<span>$100</span></li>
                    <li class="feautured"><img src="images/feautured/capsules.png" alt="CDB Capsules">
-                   CDB Capsules<span><s>$70</s> $60</span></li>
+                   CDB Capsules <s>$70</s> <span style="color: red;">$60</span></li>
                 </ul>
-        </section>
-        <section>
-             <h2>Our Blog</h2>
+           </section>
+           <section>
+              <h2>Our Blog</h2>
                  <ul>
                     <li><img src="images/blog/Rectangle51.jpg" alt="CBD bath Bombs"></li>
                     <li>Jan 02,2020</li>
@@ -65,10 +69,10 @@
                     <li class="blog">CBD Candy: Why Are Those Edibles Becoming So Popular?</li>
                     <li><a href="#">Read More</a></li> 
                   </ul>   
-         </section>
-         <section>
-           	 <h2>Our Instagramm</h2>
-               <a href="http://instagram.com" class="insta">#INSTAGRAMM FEED</a>
+          </section>
+          <section>
+           	  <h2>Our Instagramm</h2>
+                 <a href="http://instagram.com" class="insta">#INSTAGRAMM FEED</a>
                  <ul>
                     <li><img src="images/insta/cbeo.jpg" alt="photo1"></li>
                     <li><img src="images/insta/unsplash.jpg" alt="photo2"></li>
@@ -85,24 +89,24 @@
                 <form action="#" method="post">
                   <label for="email">Subscribe For a Newslatter</label>
                    <input type="email" id="email" name="email" maxlength="100" size="50" placeholder="Enter your Email">
-                   <input type="image" src="images/icons/email.svg" alt="email">
+                   <button type="button"><img src="images/icons/email.svg" class="button" alt="email"></button>
                  </form>
        </section>
             <img class="one" src="images/icons/logo-down.svg" alt="Logo">
-              <nav aria-label="footer navigation">
+              <nav aria-label="footer">
                  <ul>
-                  <li>Menu
-                  <li class="nav_li"><a class="nav_li" href="#">Our Blog</a></li>
-                  <li class="nav_li"><a class="nav_li" href="#">About Us</a></li>
-                  <li class="nav_li"><a class="nav_li" href="#">Contact Us</a></li>
-                  <li>About Us
-                  <li class="nav_li"><a class="nav_li" href="#">Our Blog</a></li>
-                  <li class="nav_li"><a class="nav_li" href="#">About Us</a></li>
-                  <li class="nav_li"><a class="nav_li" href="#">Contact Us</a></li>
-                  <li>Contact US
-                  <li class="nav_li"><img src="images/icons/phone.svg" alt="phone" width="14" height="14">+1(578)789-65-20</li>
-                  <li class="nav_li"><img src="images/icons/support.svg" alt="support email" width="14" height="14">support@ourpage.com</li>
-                  <li class="nav_li"><img src="images/icons/address.svg" alt="address" width="14" height="14">1149 NW 10th Ave,St John,KS</li>
+                   <li class="footer">Menu
+                   <li class="nav_li"><a class="nav_li" href="#">Our Blog</a></li>
+                   <li class="nav_li"><a class="nav_li" href="#">About Us</a></li>
+                   <li class="nav_li"><a class="nav_li" href="#">Contact Us</a></li>
+                   <li class="footer">About Us
+                   <li class="nav_li"><a class="nav_li" href="#">Our Blog</a></li>
+                   <li class="nav_li"><a class="nav_li" href="#">About Us</a></li>
+                   <li class="nav_li"><a class="nav_li" href="#">Contact Us</a></li>
+                   <li class="footer">Contact US
+                   <li class="nav_li"><img src="images/icons/phone.svg" alt="phone" width="14" height="14">+1(578)789-65-20</li>
+                   <li class="nav_li"><img src="images/icons/support.svg" alt="support email" width="14" height="14">support@ourpage.com</li>
+                   <li class="nav_li"><img src="images/icons/address.svg" alt="address" width="14" height="14">1149 NW 10th Ave,St John,KS</li>
                 </ul>
             </nav> 
          </footer>

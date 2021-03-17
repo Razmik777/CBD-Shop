@@ -3,7 +3,7 @@ h1{
 }
 h2{
 	text-align: center;
-	font-size: 24px;
+	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 }
@@ -13,8 +13,8 @@ section.blog{
 	font-weight: 400;
 }
 footer{
-	background-color:#fa897b;
 	padding: 30px;
+	background-color:#fa897b;
 	color:white;
 	list-style-type: none;
 	text-decoration: none;
@@ -31,7 +31,7 @@ a:hover{
 	text-decoration:underline;
 }
 p{
-	font-size: 15px;
+	font-size: 36px;
 }
 li{
 	list-style-type: none;
@@ -44,28 +44,31 @@ input{
 pre.text{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
-	font-size: 60px;
+	font-size: 72px;
+	height: 600px;
 	color: #fa897b;
 	background: url(images/banner/banner.jpg) no-repeat;
-	height: 600px;
 	background-color: yellow;
 }
 label{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-weight: 600;
-	font-size: 17px;
+	font-size: 18px;
+}
+input[type="email"]{
+	font-style: 'Poppins', sans-serif;
+	font-weight: 400;
 }
 .logo{
+	position:center;
+	margin: auto;
+	display: block;
  	width: 80px;
- 	height:80px;
- 	display: block;
- 	margin: auto;
- 	position:center;
+ 	height:80px;	
 }
 .menu{
 	position:left; 
-    font-size: 13px;
     word-spacing: 2px;
     text-decoration: underline;
 
@@ -75,41 +78,42 @@ label{
 	margin-left:30px;
 	list-style-type: none;	
 }
-}
-.footer{
-	text-decoration: none;
-	color:white;
-	
+li.footer{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-weight: 600; 
 }
 .one{
+	margin:left;
 	width: 80px;
  	height:80px;
  	display: block;
- 	margin:left;
  	mix-blend-mode:multiply;	
 }
 .nav_li{
 	list-style-type: none;
-	color: white;
 	font-family: 'Poppins', sans-serif;
-	font-size: 17px;
+	font-size: 14px;
 	font-weight: 600;
 	font-weight: 400;
+	color: white;
 }
-.nav-ul{
-	font-size: 20px;
+.navigation1{
+	font-size: 15px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 }
 .product{
 	font-family: 'Poppins', sans-serif;
-	font-size: 25px;
+	font-size: 36px;
 	font-weight: 400;
 }
 .feautured{
 	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 500;
+	border: 1px solid grey;
 }
 .blog{
 	font-family: 'Poppins', sans-serif;
