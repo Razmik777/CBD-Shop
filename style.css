@@ -57,21 +57,14 @@ label{
 	font-size: 18px;
 }
 input[type="email"]{
-	font-style: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 }
 .logo{
-	position:center;
-	margin: auto;
 	display: block;
+	margin: 0 auto;
  	width: 80px;
  	height:80px;	
-}
-.menu{
-	position:left; 
-    word-spacing: 2px;
-    text-decoration: underline;
-
 }
 .nav-li{
 	float:left;
@@ -85,7 +78,6 @@ li.footer{
 	font-weight: 600; 
 }
 .one{
-	margin:left;
 	width: 80px;
  	height:80px;
  	display: block;
@@ -124,5 +116,8 @@ li.footer{
 .insta{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
+}
+.btn{
+	
 }
 
