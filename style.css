@@ -16,17 +16,15 @@ section.blog{
 footer{
 	padding: 30px;
 	background-color:#fa897b;
+	height: 300px;
 }
 a{
 	text-decoration: none;
-	list-style-type: none;	
-}
-a:not(footer)
-{   
 	color: black;
+
 }
 a:hover{
-	text-decoration:underline;
+	text-decoration: underline;
 }
 p{
 	font-size: 36px;	
@@ -36,13 +34,11 @@ input{
 	padding: 10px;
 	margin-left: 10px;
 }
-label{
-	font-weight: 400;
-	font-weight: 600;
-	font-size: 18px;
-}
 input[type="email"]{
 	font-weight: 400;
+}
+footer a{
+	color: #fff;
 }
 .hidden{
 	display: none;
@@ -89,8 +85,7 @@ input[type="email"]{
 	background-color: #e7e7e7;
 	background-size: cover;
 	margin-right: 30px;
-	padding: 70px;
-	
+	padding: 70px;	
 }
 .product p{
 	transform: rotate(-90deg);
@@ -98,10 +93,7 @@ input[type="email"]{
 	margin-right: 5px;
 }
 .footer-logo{
-	width: 80px;
- 	height:80px;
- 	display: block;
- 	mix-blend-mode:multiply;	
+	width: 80px;	
 }
 .product{
 	font-size: 36px;
@@ -109,17 +101,18 @@ input[type="email"]{
 }
 .feautured{
 	display: flex;
+	justify-content: center;
+
 }
 .feautured img{
 	border: 0.5px solid grey;
-	display: block;
+	display: inline-block;
 	padding: 50px;
-	margin-right: 20px;
+	margin-left: 20px;
 }
 .feautured span{
-	text-align: center;
-	font-size: 17px;
-	height: 20px;
+	font-size: 18px;
+	font-weight: 500px;	
 }
 .blog{
     display: inline-flex;
@@ -135,4 +128,30 @@ input[type="email"]{
 }
 .email{
 	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400px;
+	font-weight: 600px;
+}
+.bottom-menu{
+	display: flex;
+	color: white;
+	justify-content: space-around;
+	border-top:solid 1px;
+	margin-top: 50px;
+	padding-top: 15px;
+}
+.text{
+	font-size: 25px;
+	font-weight: 600px;
+}
+.text-menu{
+	font-size: 16px;
+	font-weight: 400px;
+}
+.bottom-menu li{
+	line-height: 35px;
+}
+.bottom-menu img[src*="svg"]{
+	margin-right: 10px;
 }
