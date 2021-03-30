@@ -21,7 +21,6 @@ footer{
 a{
 	text-decoration: none;
 	color: black;
-
 }
 a:hover{
 	text-decoration: underline;
@@ -112,7 +111,7 @@ footer a{
 }
 .feautured span{
 	font-size: 18px;
-	font-weight: 500px;	
+	font-weight: 500;	
 }
 .blog{
     display: inline-flex;
@@ -130,8 +129,8 @@ footer a{
 	text-align: center;
 	color: #fff;
 	font-size: 18px;
-	font-weight: 400px;
-	font-weight: 600px;
+	font-weight: 400;
+	font-weight: 600;
 }
 .bottom-menu{
 	display: flex;
@@ -143,11 +142,11 @@ footer a{
 }
 .text{
 	font-size: 25px;
-	font-weight: 600px;
+	font-weight: 600;
 }
 .text-menu{
 	font-size: 16px;
-	font-weight: 400px;
+	font-weight: 400;
 }
 .bottom-menu li{
 	line-height: 35px;
