@@ -9,10 +9,6 @@ h2{
 	font-size: 30px;
 	font-weight: 500;
 }
-section.blog{
-	font-size: 20px;
-	font-weight: 400;
-}
 footer{
 	padding: 30px;
 	background-color:#fa897b;
@@ -26,7 +22,8 @@ a:hover{
 	text-decoration: underline;
 }
 p{
-	font-size: 36px;	
+	font-size: 36px;
+	color: #404040;
 }
 input{
 	border-radius: 20px 0 0 20px;
@@ -39,11 +36,15 @@ input[type="email"]{
 footer a{
 	color: #fff;
 }
+section.blog{
+	font-size: 20px;
+	font-weight: 400;
+}
 .hidden{
 	display: none;
 }
 .slide{
-	background: url(images/banner/banner.jpg) no-repeat ;
+	background: url(images/banner/banner.jpg) no-repeat;
 	background-color: yellow;
 	height: 600px;
 	font-size: 72px;
@@ -79,51 +80,66 @@ footer a{
 }
 .product{
 	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	font-weight: 400;
 }
-.list img{
-	background-color: #e7e7e7;
-	background-size: cover;
-	margin-right: 30px;
-	padding: 70px;	
+.product li{
+	display: flex;
+	align-items: center;
 }
 .product p{
 	transform: rotate(-90deg);
-	line-height: 30px;
-	margin-right: 5px;
+	display: flex;
+	flex-wrap: wrap;
 }
 .footer-logo{
-	width: 80px;	
-}
-.product{
-	font-size: 36px;
-	font-weight: 400;
+	width: 80px;
 }
 .feautured{
 	display: flex;
-	justify-content: center;
-
+	justify-content: space-around;
+	margin-left: 80px;
 }
-.feautured img{
-	border: 0.5px solid grey;
-	display: inline-block;
-	padding: 50px;
-	margin-left: 20px;
+.feautured li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.feautured-img-item{
+	border: 0.5px solid #D3D3D3;
+	width: 300px;
+	text-align: center;
+	margin-right: 20px;
+	padding: 10px 0;
 }
 .feautured span{
 	font-size: 18px;
-	font-weight: 500;	
+	font-weight: 500;
+	align-items: center;
 }
 .blog{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
 }
-.blog img{
-	margin-bottom: 15px;
+.blog li{
+	display: flex;
+	flex-direction: column;
+}
+.blog-img-item{
+    margin-right: 10px;
+}
+.blog .text{
+	font-size: 18px;
+	font-weight: 500;
+	flex-direction: row;
+	width: 350px;
 }
 .insta{
 	display: flex;
 }
 .insta img{
-	margin: 10px 10px 10px 10px;
+	margin:8px 8px 8px 8px;
 }
 .email{
 	text-align: center;
@@ -141,7 +157,7 @@ footer a{
 	padding-top: 15px;
 }
 .text{
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: 600;
 }
 .text-menu{
