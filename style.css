@@ -8,6 +8,7 @@ h2{
 	text-align: center;
 	font-size: 30px;
 	font-weight: 500;
+	margin-top: 70px;
 }
 footer{
 	padding: 30px;
@@ -43,55 +44,96 @@ section.blog{
 .hidden{
 	display: none;
 }
-.slide{
+.slider{
 	background: url(images/banner/banner.jpg) no-repeat;
 	background-color: yellow;
 	height: 600px;
 	font-size: 72px;
+	font-weight: 500;
 	color: #fa897b;
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0 0 30px;
+	margin: -20px;
+}
+.buttons{
+	position: relative;
+	display: flex;
+}
+.button-left{
+	position: absolute;
+	top: 270px;
+	left: 20px;
+	border: 0.5px solid #626262;
+	border-right: none;
+	font-size: 25pt;
+	background-color: #b6baba;
+	margin-left: 25px;
+	padding: 8px;
+}
+.button-right{
+	position: absolute;
+	top: 270px;
+	left: 67px;
+	border: 0.5px solid #626262;
+	border-left: none;
+	font-size: 25pt;
+	background-color: #dce1e2;
+	margin-left: 25px;
+	padding: 8px;
 }
 .top-menu{
-	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
 }
-.menu-main{
-	list-style: none;
-	margin: 0;
-	padding: 0;
+.top-menu a{
+	margin-right: 55px;
+    font-size: 15px;
+    font-weight: 400;
 }
-.left-item {
-    float: left;
+.menu-main-left{
+	display: flex;
 }
-.right-item{
-	float: right;
+.menu-main-right{
+	display: flex;
+	flex-direction: row-reverse;
 }
 .logo{
+	display: inline;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
 	margin-top: 40px;
-	padding-left: 550px;
 	width: 80px;
  	height:80px;
 }
-.menu-main a{
-	display: block;
-    padding: 15px 20px;
-    font-size: 15px;
-}
 .product{
 	display: flex;
-	justify-content: space-between;
-	font-size: 20px;
-	font-weight: 400;
+	justify-content: space-around;
+	margin-top: 70px;
+	position: relative;
 }
-.product li{
-	display: flex;
-	align-items: center;
+.product-item{
+	display: inline-block;
+	background-color: rgba(225, 225, 225, 1);
+	text-align: center;
+	width: 270px;
+	height: 250px;
+	padding-top: 30px;
+	margin: 30px;
 }
-.product p{
+.product span{
+	display: block;
 	transform: rotate(-90deg);
-	display: flex;
-	flex-wrap: wrap;
+	font-size: 36px;
+	font-weight: 400;
+	position: relative;
+	right: 140px;
+	top: 170px; 
+}
+.product li:last-child{
+	word-spacing: -10px;
 }
 .footer-logo{
 	width: 80px;
@@ -100,6 +142,7 @@ section.blog{
 	display: flex;
 	justify-content: space-around;
 	margin-left: 80px;
+	margin-top: 50px;
 }
 .feautured li{
 	display: flex;
@@ -137,6 +180,20 @@ section.blog{
 }
 .insta{
 	display: flex;
+	position: relative;
+}
+.insta a{
+	position: absolute;
+	left: 555px;
+	top: 69px;
+	width: 175px;
+	height: 30px;
+	background-color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	word-spacing: 2px;
+	padding: 2px;
+	text-align: center;
 }
 .insta img{
 	margin:8px 8px 8px 8px;
@@ -147,6 +204,12 @@ section.blog{
 	font-size: 18px;
 	font-weight: 400;
 	font-weight: 600;
+}
+.button{
+	border: hidden;
+	background-color: #d44848;
+	width: 40px;
+	height: 40px;
 }
 .bottom-menu{
 	display: flex;
