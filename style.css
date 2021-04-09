@@ -134,8 +134,9 @@ section.blog{
 	font-size: 36px;
 	font-weight: 400;
 	position: relative;
-	right: 140px;
+	right: 144px;
 	top: 170px; 
+	z-index: -1;
 }
 .product li:last-child{
 	word-spacing: -10px;
@@ -236,11 +237,11 @@ section.blog{
 	margin-top: 50px;
 	padding-top: 15px;
 }
-.text{
+.item{
 	font-size: 22px;
 	font-weight: 600;
 }
-.text-menu{
+.item-menu{
 	font-size: 16px;
 	font-weight: 400;
 }
