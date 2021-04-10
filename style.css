@@ -13,12 +13,6 @@ h2{
 	margin-top: 70px;
 	margin-bottom: 50px;
 }
-footer{
-	padding: 30px;
-	background-color:#fa897b;
-	height: 300px;
-	margin-top: 30px;
-}
 a{
 	text-decoration: none;
 	color: black;
@@ -31,12 +25,21 @@ p{
 	color: #404040;
 }
 input{
-	border-radius: 20px 0 0 20px;
+	border-radius: 20px;
 	padding: 10px;
 	margin-left: 10px;
+	outline: none;
 }
-input[type="email"]{
-	font-weight: 400;
+input[type="text"]{
+	padding: 14px;
+    border-radius: 28px;
+    border: none;
+}
+footer{
+	padding: 30px;
+	background-color:#fa897b;
+	height: 300px;
+	margin-top: 30px;
 }
 footer a{
 	color: #fff;
@@ -48,6 +51,8 @@ section.blog{
 .hidden{
 	display: none;
 }
+/* slider*/
+
 .slider{
 	background: url(images/banner/banner.jpg) no-repeat;
 	background-color: yellow;
@@ -57,17 +62,18 @@ section.blog{
 	color: #fa897b;
 	background-size: cover;
 	background-position: center;
-	padding: 60px 0 0 30px;
+	padding-top: 94px;
+    padding-left: 70px;
 	margin: -20px;
 }
-.buttons{
+.slider_buttons{
 	position: relative;
 	display: flex;
 }
-.button-left{
+.slider_button_left{
 	position: absolute;
 	top: 270px;
-	left: 20px;
+	left: -27px;
 	border: 0.5px solid #626262;
 	border-right: none;
 	font-size: 25pt;
@@ -75,22 +81,24 @@ section.blog{
 	margin-left: 25px;
 	padding: 8px;
 }
-.button-right{
+.slider_button_right{
 	position: absolute;
 	top: 270px;
-	left: 67px;
+	left: 20px;
 	border: 0.5px solid #626262;
 	border-left: none;
 	font-size: 25pt;
 	background-color: #dce1e2;
-	margin-left: 25px;
+	margin-left: 28px;
 	padding: 8px;
 }
+
+/* header*/
+
 .top-menu{
 	display: flex;
 	margin: 20px auto;
 	justify-content: space-between;
-	margin: 20px;
 }
 .top-menu a{
 	margin-right: 55px;
@@ -113,6 +121,8 @@ section.blog{
 	width: 80px;
  	height:80px;
 }
+/* product*/
+
 .product{
 	display: flex;
 	justify-content: space-around;
@@ -141,9 +151,8 @@ section.blog{
 .product li:last-child{
 	word-spacing: -10px;
 }
-.footer-logo{
-	width: 80px;
-}
+/* feautured product */
+
 .feautured{
 	display: flex;
 	justify-content: space-around;
@@ -168,6 +177,8 @@ section.blog{
 	font-weight: 500;
 	align-items: center;
 }
+/* blog*/
+
 .blog{
     display: flex;
     justify-content: space-between;
@@ -192,6 +203,8 @@ section.blog{
 .red{
 	color: #ff0000;
 }
+/*/* insta */
+
 .insta{
 	display: flex;
 	position: relative;
@@ -214,20 +227,19 @@ section.blog{
 .insta img{
 	margin:8px 8px 8px 8px;
 }
+/*footer*/
+
+.footer-logo{
+	width: 80px;
+}
 .email{
 	text-align: center;
 	color: #fff;
 	font-size: 18px;
-	font-weight: 400;
 	font-weight: 600;
 }
-.button{
-	background-color: #d44848;
-	width: 40px;
-	height: 40px;
-    border-radius: 0 14px 14px 0;
-    margin-left: -12px;
-    padding: 5px;
+.button-subscribe{
+	
 }
 .bottom-menu{
 	display: flex;
