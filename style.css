@@ -5,6 +5,8 @@ body{
 }
 ul{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 h2{
 	text-align: center;
@@ -64,7 +66,6 @@ section.blog{
 	background-position: center;
 	padding-top: 94px;
     padding-left: 70px;
-	margin: -20px;
 }
 .slider_buttons{
 	position: relative;
@@ -97,27 +98,27 @@ section.blog{
 
 .top-menu{
 	display: flex;
-	margin: 20px auto;
+	margin: 10px 50px;
 	justify-content: space-between;
-}
-.top-menu a{
-	margin-right: 55px;
-    font-size: 15px;
-    font-weight: 400;
+	align-items: center;
+	font-size: 15px;
+	font-weight: 400;
 }
 .top-menu-list-left{
 	display: flex;
+	margin-left: 50px;
+}
+.top-menu-list-left li{
+	margin-right: 40px;
 }
 .top-menu-list-right{
 	display: flex;
 	flex-direction: row-reverse;
 }
+.top-menu-list-right li{
+	margin-left: 50px;
+}
 .logo{
-	display: flex;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
-	margin-top: 40px;
 	width: 80px;
  	height:80px;
 }
@@ -130,13 +131,11 @@ section.blog{
 	position: relative;
 }
 .product-item{
-	display: inline-block;
 	background-color: rgba(225, 225, 225, 1);
 	text-align: center;
 	width: 270px;
 	height: 250px;
 	padding-top: 30px;
-	margin: 30px;
 }
 .product span{
 	display: block;
@@ -144,7 +143,7 @@ section.blog{
 	font-size: 36px;
 	font-weight: 400;
 	position: relative;
-	right: 144px;
+	right: 148px;
 	top: 170px; 
 	z-index: -1;
 }
