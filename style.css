@@ -34,8 +34,8 @@ input{
 }
 input[type="text"]{
 	padding: 14px;
-    border-radius: 28px;
-    border: none;
+      border-radius: 28px;
+      border: none;
 }
 footer{
 	padding: 30px;
