@@ -73,25 +73,29 @@ section.blog{
 }
 .slider_button_left{
 	position: absolute;
-	top: 270px;
-	left: -27px;
+	top: -106px;
+	left: 62px;
 	border: 0.5px solid #626262;
 	border-right: none;
-	font-size: 25pt;
-	background-color: #dce1e2;
-	margin-left: 25px;
-	padding: 8px;
+	font-size: 12pt;
+	padding: 10px;
+}
+.left-button{
+	transform: scaleX(-1);
+}
+.active{
+	background-color: #babdbd;
 }
 .slider_button_right{
 	position: absolute;
-	top: 270px;
-	left: 20px;
+	top: -106px;
+	left: 76px;
 	border: 0.5px solid #626262;
 	border-left: none;
-	font-size: 25pt;
+	font-size: 12pt;
 	background-color: #dce1e2;
-	margin-left: 28px;
-	padding: 8px;
+	margin-left: 29px;
+	padding: 10px;
 }
 
 /* header*/
@@ -106,7 +110,6 @@ section.blog{
 }
 .top-menu-list-left{
 	display: flex;
-	margin-left: 50px;
 }
 .top-menu-list-left li{
 	margin-right: 40px;
@@ -119,15 +122,16 @@ section.blog{
 .top-menu-list-right li{
 	margin-left: 50px;
 }
-.product-indicator{
- 	position: absolute;
+.product-indicator:after{
+    content: '2';
+    position: absolute;
  	background-color: #fa897b;
- 	border-radius: 100px;
- 	padding: 2px 6px;
  	color: #fff;
- 	font-size: 8px;
- 	left: 140px;
- 	top: -5px;
+ 	font-size: 9px;
+ 	border-radius: 120px;
+ 	padding: 2px 6px;
+ 	top: -6px;
+ 	right: 79px;
  }
 .logo{
 	width: 80px;
@@ -145,8 +149,9 @@ section.blog{
 	background-color: rgba(225, 225, 225, 1);
 	text-align: center;
 	width: 270px;
-	height: 250px;
-	padding-top: 30px;
+	height: 280px;
+	position: relative;
+	z-index: 2;
 }
 .product span{
 	display: block;
@@ -156,7 +161,7 @@ section.blog{
 	position: relative;
 	right: 148px;
 	top: 170px; 
-	z-index: -1;
+	z-index: 1;
 }
 .product li:last-child{
 	word-spacing: -10px;
