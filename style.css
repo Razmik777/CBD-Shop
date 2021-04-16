@@ -10,7 +10,7 @@ ul{
 }
 ul.wrapper{
 	margin-left: 52px;
-	margin-right: 25px;
+	margin-right: 22px;
 }
 h2{
 	text-align: center;
@@ -64,7 +64,6 @@ section.blog{
 	background-color: yellow;
 	height: 600px;
 	background-size: cover;
-	background-position: center;
 	padding-top: 10px;
 }
 .item-slider .slider-text{
@@ -73,7 +72,6 @@ section.blog{
 	line-height: 100px;
 	width: 500px;
 	color: #fa897b;
-	padding-top: 94px;
 	padding-left: 55px;
 
 }
@@ -130,6 +128,7 @@ section.blog{
 	display: flex;
 	position: relative;
 	flex-direction: row-reverse;
+	margin-right: -14px;
 }
 .top-menu-list-right li{
 	margin-left: 50px;
@@ -219,15 +218,12 @@ section.blog{
 
 .blog{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .blog a{
     display: flex;
 	flex-direction: column;
-}
-.blog-img-item{
-    padding-right: 10px;
 }
 .blog .text{
 	font-size: 18px;
@@ -256,9 +252,6 @@ section.blog{
 	word-spacing: 2px;
 	padding: 2px;
 	text-align: center;
-}
-.insta img{
-	margin:8px 8px 8px 8px;
 }
 /*footer*/
 
