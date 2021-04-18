@@ -7,8 +7,6 @@ ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-ul.wrapper{
 	margin-left: 52px;
 	margin-right: 22px;
 }
@@ -59,20 +57,20 @@ section.blog{
 }
 /* slider*/
 
-.item-slider{
-	background: url(images/banner/banner.jpg) no-repeat;
+.item-slide{
+	background: url(images/banner/banner.jpg) center no-repeat;
 	background-color: yellow;
-	height: 600px;
 	background-size: cover;
 	padding-top: 10px;
 }
-.item-slider .slider-text{
+.item-slide .slide-text{
 	font-size: 72px;
 	font-weight: 500;
 	line-height: 100px;
 	width: 500px;
 	color: #fa897b;
 	padding-left: 55px;
+	padding-bottom: 300px;
 
 }
 .slider_buttons{
@@ -81,7 +79,7 @@ section.blog{
 }
 .slider_button_left{
 	position: absolute;
-	top: -106px;
+	bottom: -535px;
 	left: 62px;
 	border: 1px solid #626262;
 	border-right: none;
@@ -97,7 +95,7 @@ section.blog{
 }
 .slider_button_right{
 	position: absolute;
-	top: -106px;
+	bottom: -535px;
 	left: 78px;
 	border: 1px solid #626262;
 	border-left: none;
@@ -153,6 +151,7 @@ section.blog{
 .product{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	margin-left: 85px;
 	position: relative;
 }
@@ -186,6 +185,7 @@ section.blog{
 .feautured{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 
 }
 .feautured a{
@@ -219,7 +219,7 @@ section.blog{
 .blog{
     display: flex;
     justify-content: space-around;
-
+    flex-wrap: wrap;
 }
 .blog a{
     display: flex;
@@ -238,6 +238,7 @@ section.blog{
 	display: flex;
 	position: relative;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	margin-top: 80px;
 }
 .insta a{
