@@ -15,10 +15,11 @@ h2{
 	line-height: 100px;
 	margin-top: 60px;
 	margin-bottom: 25px;
+	color: #404040;
 }
 a{
 	text-decoration: none;
-	color: black;
+	color: #404040;
 }
 a:hover{
 	text-decoration: underline;
@@ -55,8 +56,8 @@ section.blog{
 	display: none;
 }
 .wrapper{
-    margin-left: 25px;
-	margin-right: 20px;
+    margin-left: 60px;
+	margin-right: 35px;
 }
 /* slider*/
 
@@ -78,7 +79,7 @@ section.blog{
 }
 .slider_buttons{
 	position: relative;
-	display: flex;
+	
 }
 .slider_button_left{
 	position: absolute;
@@ -175,6 +176,7 @@ section.blog{
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 100px;
+	color: #404040;
 	position: relative;
 	right: 160px;
 	top: 183px; 
@@ -215,7 +217,14 @@ section.blog{
 	color: #808080;
 }
 .red{
-	color: #ff0000;
+	color: #fa897b;
+}
+.price{
+	font-family: 'Poppins', sans-serif;
+	color: #404040;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0;
 }
 /* blog*/
 
@@ -235,27 +244,37 @@ section.blog{
 	flex-direction: row;
 	width: 350px;
 }
+a .read-more{
+	background: url(images/blog/shape.png) no-repeat;
+	background-position: 92px;
+}
 /*/* insta */
 
 .insta{
 	display: flex;
 	position: relative;
 	justify-content: space-around;
-	flex-wrap: wrap;
 	margin-top: 80px;
 }
 .insta a{
 	position: absolute;
-	left: 555px;
+	left: 485px;
 	top: 69px;
-	width: 175px;
-	height: 30px;
-	background-color: #fff;
+	background-image: url(images/insta/fon.png);
+	width: 197px;
+	height: 50px;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 500;
 	word-spacing: 2px;
-	padding: 2px;
+	line-height: 26px;
 	text-align: center;
+}
+.insta li{
+	margin-right: 10px;
+}
+a .insta-feed{
+	display: block;
+	margin-top: 12px;
 }
 /*footer*/
 
