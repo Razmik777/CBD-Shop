@@ -59,7 +59,7 @@ p{
 }
 .slider_button_left{
 	position: absolute;
-	bottom: -17px;
+	bottom: 230px;
 	left: 62px;
 	border: 1px solid #626262;
 	border-right: none;
@@ -75,7 +75,7 @@ p{
 }
 .slider_button_right{
 	position: absolute;
-	bottom: -17px;
+	bottom: 230px;
 	left: 78px;
 	border: 1px solid #626262;
 	border-left: none;
