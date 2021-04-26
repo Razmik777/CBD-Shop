@@ -28,10 +28,6 @@ p{
 	font-size: 36px;
 	color: #404040;
 }
-section.blog{
-	font-size: 20px;
-	font-weight: 400;
-}
 .hidden{
 	display: none;
 }
@@ -63,7 +59,7 @@ section.blog{
 }
 .slider_button_left{
 	position: absolute;
-	bottom: -535px;
+	bottom: -17px;
 	left: 62px;
 	border: 1px solid #626262;
 	border-right: none;
@@ -79,7 +75,7 @@ section.blog{
 }
 .slider_button_right{
 	position: absolute;
-	bottom: -535px;
+	bottom: -17px;
 	left: 78px;
 	border: 1px solid #626262;
 	border-left: none;
@@ -187,24 +183,30 @@ section.blog{
 	width: 270px;
 	height: 270px;
 	text-align: center;
+	margin-bottom: 15px;
 }
 .feautured span{
 	font-size: 18px;
 	font-weight: 500;
 	align-items: center;
 }
-.grey{
-	color: #808080;
-}
-.red{
-	color: #fa897b;
-}
 .price{
 	font-family: 'Poppins', sans-serif;
-	color: #404040;
 	font-size: 18px;
 	font-weight: 500;
-	margin: 0;
+	color: #808080;
+}
+.current-price{
+	position: relative;
+	left: 23px;
+	bottom: 27px;
+	color: #fa897b;
+}
+.old-price{
+	position: relative;
+	text-decoration: line-through;
+	right: 21px;
+	color: #808080;
 }
 /* blog*/
 
@@ -214,7 +216,7 @@ section.blog{
     flex-wrap: wrap;
 }
 .blog a{
-    display: flex;
+	display: flex;
 	flex-direction: column;
 }
 .blog .text{
@@ -228,88 +230,97 @@ a .read-more{
 	background: url(images/blog/shape.png) no-repeat;
 	background-position: 92px;
 }
-/*/* insta */
-
-.insta{
-	display: flex;
-	position: relative;
-	justify-content: space-around;
-	margin-top: 80px;
+section.blog{
+	font-size: 20px;
+	font-weight: 400;
 }
-.insta a{
+/*/* insta */
+.insta{
+	position: relative;
+}
+.insta-img{
+	width: 100%;
+	height: auto;
+}
+a.insta-link{
 	position: absolute;
-	left: 485px;
+	left: 526px;
 	top: 69px;
 	background-image: url(images/insta/fon.png);
-	width: 197px;
-	height: 50px;
+	width: 199px;
+	height: 52px;
+	font-size: 16px;
+	font-weight: 500;
+	word-spacing: 2px;
+	line-height: 26px;
+}
+.insta-link span{
 	font-size: 16px;
 	font-weight: 500;
 	word-spacing: 2px;
 	line-height: 26px;
 	text-align: center;
-}
-.insta li{
-	margin-right: 10px;
-}
-a .insta-feed{
 	display: block;
 	margin-top: 12px;
+
+}
+.img-list{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
 }
 /*footer*/
 footer{
-	padding: 50px;
+	padding-top: 30px;
 	background-color:#fa897b;
 	margin-top: 50px;
 }
 footer a{
 	color: #fff;
 }
-input{
+.subscribe{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #fff;
+}
+.newslatter{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px;
+	color: #fff;
+}
+.footer-input{
 	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-input input{
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 26px;
 	border-radius: 25px;
 	margin-left: 10px;
 	outline: none;
+	width: 670px;
 	height: 50px;
 	border: none;
 }
-.subscribe{
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 26px;
-}
-.newslatter{
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 26px;
-}
-.footer-logo{
-	position: relative;
-	left: -65px;
-	width: 100px;
-}
-.email{
-	text-align: center;
-	color: #fff;
-	font-size: 18px;
-	line-height: 26px;
-	font-weight: 600;
-	margin-right: 30px;
-}
 .button{
 	position: absolute;
-	right: 207px;
+	right: 167px;
 	background: #d44848;
 	border: none;
 	border-radius: 0 25px 25px 0;
 	width: 100px;
 	height: 52px;
 	cursor: pointer;
-	outline: none;
-	
+	outline: none;	
+}
+.footer-logo{
+	position: relative;
+	left: -65px;
+	width: 100px;
 }
 .bottom-menu{
 	display: flex;
@@ -318,6 +329,7 @@ input{
 	border-top:solid 1px;
 	margin-top: 50px;
 	padding-top: 15px;
+	padding-bottom: 63px;
 }
 .item{
 	font-size: 22px;
